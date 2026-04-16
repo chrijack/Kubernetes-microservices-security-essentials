@@ -21,52 +21,52 @@ All lesson materials are located in the `lessons/` directory.
 
 | Lesson | Topic | Link |
 |--------|-------|------|
-| 18.1 | Resource Isolation with ResourceQuota and LimitRange | [lessons/lesson-18.1/lesson-18.1.md](lessons/lesson-18.1/lesson-18.1.md) |
-| 18.2 | Configure Security Contexts | [lessons/lesson-18.2/lesson-18.2.md](lessons/lesson-18.2/lesson-18.2.md) |
-| 18.3 | Pod Security Admission | [lessons/lesson-18.3/lesson-18.3.md](lessons/lesson-18.3/lesson-18.3.md) |
-| 18.4 | OPA Gatekeeper and ValidatingAdmissionPolicy | [lessons/lesson-18.4/lesson-18.4.md](lessons/lesson-18.4/lesson-18.4.md) |
+| 1.1 | Resource Isolation with ResourceQuota and LimitRange | [lessons/lesson-1.1/lesson-1.1.md](lessons/lesson-1.1/lesson-1.1.md) |
+| 1.2 | Configure Security Contexts | [lessons/lesson-1.2/lesson-1.2.md](lessons/lesson-1.2/lesson-1.2.md) |
+| 1.3 | Pod Security Admission | [lessons/lesson-1.3/lesson-1.3.md](lessons/lesson-1.3/lesson-1.3.md) |
+| 1.4 | OPA Gatekeeper and ValidatingAdmissionPolicy | [lessons/lesson-1.4/lesson-1.4.md](lessons/lesson-1.4/lesson-1.4.md) |
 
 ### Lesson 2: Managing Kubernetes Secrets
 
 | Lesson | Topic | Link |
 |--------|-------|------|
-| 19.1 | Understanding Kubernetes Secrets | [lessons/lesson-19.1/lesson-19.1.md](lessons/lesson-19.1/lesson-19.1.md) |
-| 19.2 | Creating and Using Secrets | [lessons/lesson-19.2/lesson-19.2.md](lessons/lesson-19.2/lesson-19.2.md) |
-| 19.3 | Using Secrets in Pods | [lessons/lesson-19.3/lesson-19.3.md](lessons/lesson-19.3/lesson-19.3.md) |
-| 19.4 | Secrets Encryption at Rest | [lessons/lesson-19.4/lesson-19.4.md](lessons/lesson-19.4/lesson-19.4.md) |
+| 2.1 | Understanding Kubernetes Secrets | [lessons/lesson-2.1/lesson-2.1.md](lessons/lesson-2.1/lesson-2.1.md) |
+| 2.2 | Creating and Using Secrets | [lessons/lesson-2.2/lesson-2.2.md](lessons/lesson-2.2/lesson-2.2.md) |
+| 2.3 | Using Secrets in Pods | [lessons/lesson-2.3/lesson-2.3.md](lessons/lesson-2.3/lesson-2.3.md) |
+| 2.4 | Secrets Encryption at Rest | [lessons/lesson-2.4/lesson-2.4.md](lessons/lesson-2.4/lesson-2.4.md) |
 
 ### Lesson 3: Implement Container Isolation Techniques
 
 | Lesson | Topic | Link |
 |--------|-------|------|
-| 20.1 | Containing Containers | [lessons/lesson-20.1/lesson-20.1.md](lessons/lesson-20.1/lesson-20.1.md) |
-| 20.2 | Sandboxed Pods: Setup and Verification | [lessons/lesson-20.2/lesson-20.2.md](lessons/lesson-20.2/lesson-20.2.md) |
-| 20.3 | Using gVisor | [lessons/lesson-20.3/lesson-20.3.md](lessons/lesson-20.3/lesson-20.3.md) |
-| 20.4 | Using Kata Containers | [lessons/lesson-20.4/lesson-20.4.md](lessons/lesson-20.4/lesson-20.4.md) |
+| 3.1 | Containing Containers | [lessons/lesson-3.1/lesson-3.1.md](lessons/lesson-3.1/lesson-3.1.md) |
+| 3.2 | Sandboxed Pods: Setup and Verification | [lessons/lesson-3.2/lesson-3.2.md](lessons/lesson-3.2/lesson-3.2.md) |
+| 3.3 | Using gVisor | [lessons/lesson-3.3/lesson-3.3.md](lessons/lesson-3.3/lesson-3.3.md) |
+| 3.4 | Using Kata Containers | [lessons/lesson-3.4/lesson-3.4.md](lessons/lesson-3.4/lesson-3.4.md) |
 
 ### Lesson 4: Implement Pod-to-Pod Encryption with Cilium
 
 | Lesson | Topic | Link |
 |--------|-------|------|
-| 21.2 | Implementing Pod-to-Pod Encryption with Cilium | [lessons/lesson-21.2/lesson-21.2.md](lessons/lesson-21.2/lesson-21.2.md) |
-| 21.3 | Implementing and Verifying mTLS with Cilium | [lessons/lesson-21.3/lesson-21.3.md](lessons/lesson-21.3/lesson-21.3.md) |
+| 4.2 | Implementing Pod-to-Pod Encryption with Cilium | [lessons/lesson-4.2/lesson-4.2.md](lessons/lesson-4.2/lesson-4.2.md) |
+| 4.3 | Implementing and Verifying mTLS with Cilium | [lessons/lesson-4.3/lesson-4.3.md](lessons/lesson-4.3/lesson-4.3.md) |
 
 ### Lesson 5: Secure Your Software Supply Chain
 
 | Lesson | Topic | Link |
 |--------|-------|------|
-| 22.2 | ImagePolicyWebhook Policy Enforcement | [lessons/lesson-22.2/lesson-22.2.md](lessons/lesson-22.2/lesson-22.2.md) |
-| 22.3 | Enforcing Software Supply Chain Security with Validating Admission Policy | [lessons/lesson-22.3/lesson-22.3.md](lessons/lesson-22.3/lesson-22.3.md) |
-| 22.4 | Policy Enforcement: ImagePolicyWebhook | [lessons/lesson-22.4/lesson-22.4.md](lessons/lesson-22.4/lesson-22.4.md) |
-| 22.5 | Policy Enforcement: Validating Admission Policy | [lessons/lesson-22.5/lesson-22.5.md](lessons/lesson-22.5/lesson-22.5.md) |
+| 5.2 | ImagePolicyWebhook Policy Enforcement | [lessons/lesson-5.2/lesson-5.2.md](lessons/lesson-5.2/lesson-5.2.md) |
+| 5.3 | Enforcing Software Supply Chain Security with Validating Admission Policy | [lessons/lesson-5.3/lesson-5.3.md](lessons/lesson-5.3/lesson-5.3.md) |
+| 5.4 | Policy Enforcement: ImagePolicyWebhook | [lessons/lesson-5.4/lesson-5.4.md](lessons/lesson-5.4/lesson-5.4.md) |
+| 5.5 | Policy Enforcement: Validating Admission Policy | [lessons/lesson-5.5/lesson-5.5.md](lessons/lesson-5.5/lesson-5.5.md) |
 
 ### Lesson 6: Scan Images for Known Vulnerabilities
 
 | Lesson | Topic | Link |
 |--------|-------|------|
-| 25.2 | Container and Kubernetes Vulnerability Scanning with Trivy | [lessons/lesson-25.2/lesson-25.2.md](lessons/lesson-25.2/lesson-25.2.md) |
-| 25.3 | Scanning with Trivy Operator | [lessons/lesson-25.3/lesson-25.3.md](lessons/lesson-25.3/lesson-25.3.md) |
-| 25.4 | Using Kyverno, cosign, and trivy to validate SBOM and vulnerability attestation | [lessons/lesson-25.4/lesson-25.4.md](lessons/lesson-25.4/lesson-25.4.md) |
+| 6.2 | Container and Kubernetes Vulnerability Scanning with Trivy | [lessons/lesson-6.2/lesson-6.2.md](lessons/lesson-6.2/lesson-6.2.md) |
+| 6.3 | Scanning with Trivy Operator | [lessons/lesson-6.3/lesson-6.3.md](lessons/lesson-6.3/lesson-6.3.md) |
+| 6.4 | Using Kyverno, cosign, and trivy to validate SBOM and vulnerability attestation | [lessons/lesson-6.4/lesson-6.4.md](lessons/lesson-6.4/lesson-6.4.md) |
 
 ---
 
@@ -87,27 +87,27 @@ All lesson materials are located in the `lessons/` directory.
 ├── README.md
 ├── .gitignore
 ├── lessons/
-│   ├── lesson-18.1/
-│   ├── lesson-18.2/
-│   ├── lesson-18.3/
-│   ├── lesson-18.4/
-│   ├── lesson-19.1/
-│   ├── lesson-19.2/
-│   ├── lesson-19.3/
-│   ├── lesson-19.4/
-│   ├── lesson-20.1/
-│   ├── lesson-20.2/
-│   ├── lesson-20.3/
-│   ├── lesson-20.4/
-│   ├── lesson-21.2/
-│   ├── lesson-21.3/
-│   ├── lesson-22.2/
-│   ├── lesson-22.3/
-│   ├── lesson-22.4/
-│   ├── lesson-22.5/
-│   ├── lesson-25.2/
-│   ├── lesson-25.3/
-│   └── lesson-25.4/
+│   ├── lesson-1.1/
+│   ├── lesson-1.2/
+│   ├── lesson-1.3/
+│   ├── lesson-1.4/
+│   ├── lesson-2.1/
+│   ├── lesson-2.2/
+│   ├── lesson-2.3/
+│   ├── lesson-2.4/
+│   ├── lesson-3.1/
+│   ├── lesson-3.2/
+│   ├── lesson-3.3/
+│   ├── lesson-3.4/
+│   ├── lesson-4.2/
+│   ├── lesson-4.3/
+│   ├── lesson-5.2/
+│   ├── lesson-5.3/
+│   ├── lesson-5.4/
+│   ├── lesson-5.5/
+│   ├── lesson-6.2/
+│   ├── lesson-6.3/
+│   └── lesson-6.4/
 ```
 
 ---
